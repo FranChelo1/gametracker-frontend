@@ -1,0 +1,132 @@
+/* === CARD ESTILO STEAM === */
+.game-card {
+  background: #1b2533; /* azul oscuro Steam */
+  border-radius: 10px;
+  padding: 14px;
+  box-shadow: 0 0 8px rgba(0, 150, 255, 0.15);
+  border: 1px solid #2f3b50;
+  transition: 0.25s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.game-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 14px rgba(0, 200, 255, 0.35);
+  border-color: #3fa9f5;
+}
+
+/* Imagen */
+.game-card-img {
+  width: 100%;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Título estilo Steam */
+.title {
+  font-size: 17px;
+  font-weight: bold;
+  color: #dff2ff;
+  text-shadow: 0 0 6px rgba(0, 140, 255, 0.5);
+  margin-bottom: 6px;
+}
+
+/* Texto */
+.game-card p {
+  margin: 0;
+  color: #9ab3cc;
+  font-size: 13px;
+}
+
+/* Descripción */
+.description {
+  color: #a9bed6;
+  height: 40px;
+  overflow: hidden;
+  margin-top: 6px;
+}
+
+/* Estado */
+.status {
+  padding: 3px 10px;
+  border-radius: 6px;
+  font-size: 11px;
+  width: fit-content;
+  margin-top: 4px;
+}
+
+.status.done {
+  background: #1d4728;
+  color: #7ef797;
+  border: 1px solid #2c8055;
+}
+
+.status.pending {
+  background: #3b2e0a;
+  color: #f7d077;
+  border: 1px solid #8c6b1f;
+}
+
+/* Botones estilo Steam */
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-top: auto;
+}
+
+.btn-blue,
+.btn-green,
+.btn-yellow,
+.btn-red {
+  padding: 8px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: 0.2s;
+}
+
+/* Ver reseñas */
+.btn-blue {
+  background: #3a9bdc;
+  color: #00131e;
+}
+
+.btn-blue:hover {
+  background: #66c0f4;
+}
+
+/* Agregar reseña */
+.btn-green {
+  background: #5cb85c;
+  color: #001910;
+}
+
+.btn-green:hover {
+  background: #7be07b;
+}
+
+/* Editar */
+.btn-yellow {
+  background: #f4c542;
+  color: #332800;
+}
+
+.btn-yellow:hover {
+  background: #ffda6a;
+}
+
+/* Eliminar */
+.btn-red {
+  background: #e74c3c;
+  color: #140000;
+}
+
+.btn-red:hover {
+  background: #ff6b5b;
+}

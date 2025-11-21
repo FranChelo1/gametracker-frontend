@@ -1,0 +1,1 @@
+// Consumir games y calcular: Total juegos, completados, horas totales, promedio rating,etc.

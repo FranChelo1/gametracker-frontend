@@ -1,0 +1,1 @@
+// Identicos a juegos pero asociados a gameId.
