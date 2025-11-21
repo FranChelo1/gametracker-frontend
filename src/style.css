@@ -5,7 +5,7 @@
 /* --- FONDO GENERAL --- */
 body {
   margin: 0;
-  background: #171a21; /* Azul oscuro Steam */
+  background: #171a21; /* Azul oscuro tipo Steam */
   font-family: "Segoe UI", Arial, sans-serif;
   color: #e5e5e5;
 }
@@ -28,7 +28,7 @@ body {
 }
 
 /* ====================================
-   🔎 TOOLBAR / FILTROS STEAM STYLE
+   🔎 TOOLBAR / FILTROS ESTILO STEAM
    ==================================== */
 .toolbar {
   display: flex;
