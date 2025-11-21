@@ -22,7 +22,7 @@ jobs:
         run: npm install
 
       - name: Build project
-        run: npm run build   # ⬅️ FIX
+        run: npm run build   # 👈 FIX - Usa vite desde node_modules
 
       - name: Upload production files
         uses: actions/upload-pages-artifact@v3
